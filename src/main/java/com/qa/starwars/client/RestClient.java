@@ -12,7 +12,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class RestClient {
 
-	private static final String BASE_URI = "https://swapi.dev/api";
+	private static final String BASE_URI = "https://swapi.py4e.com/api";
 	private static final String BEARER_TOKEN = "";
 	private static RequestSpecBuilder specBuilder;
 	
