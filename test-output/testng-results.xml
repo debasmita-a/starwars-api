@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="6" passed="1" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -12,6 +13,17 @@
           </reporter-output>
         </test-method> <!-- getPeopleWithSingleID_with_extract -->
         <test-method signature="verifyFilmsForPeopleID_01(java.lang.String)[pri:0, instance:com.qa.starwars.tests.GetPeopleAPI@2af004b]" started-at="2024-04-29T18:12:15 IST" name="verifyFilmsForPeopleID_01" data-provider="filmFromPeopleID_01" finished-at="2024-04-29T18:12:16 IST" depends-on-methods="com.qa.starwars.tests.GetPeopleAPI.getPeopleWithSingleID_with_extract" duration-ms="929" status="FAIL">
+=======
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-03T09:44:19 IST" name="Default suite" finished-at="2024-05-03T09:44:27 IST" duration-ms="7698">
+    <groups>
+    </groups>
+    <test started-at="2024-05-03T09:44:19 IST" name="Default test" finished-at="2024-05-03T09:44:27 IST" duration-ms="7698">
+      <class name="com.qa.starwars.tests.GetFilmsAPI">
+        <test-method signature="verifyFilmTitles(java.lang.String)[pri:0, instance:com.qa.starwars.tests.GetFilmsAPI@3a93b025]" started-at="2024-05-03T09:44:20 IST" name="verifyFilmTitles" data-provider="filmsTitle" finished-at="2024-05-03T09:44:24 IST" duration-ms="4570" status="PASS">
+>>>>>>> 4b832d278f5b7c23cbdebbebd8fc7eaa304c8bf9
           <params>
             <param index="0">
               <value>
@@ -19,6 +31,7 @@
               </value>
             </param>
           </params>
+<<<<<<< HEAD
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -95,6 +108,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- verifyFilmsForPeopleID_01 -->
         <test-method signature="verifyFilmsForPeopleID_01(java.lang.String)[pri:0, instance:com.qa.starwars.tests.GetPeopleAPI@2af004b]" started-at="2024-04-29T18:12:16 IST" name="verifyFilmsForPeopleID_01" data-provider="filmFromPeopleID_01" finished-at="2024-04-29T18:12:16 IST" depends-on-methods="com.qa.starwars.tests.GetPeopleAPI.getPeopleWithSingleID_with_extract" duration-ms="328" status="FAIL">
+=======
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilmTitles -->
+        <test-method signature="verifyFilmTitles(java.lang.String)[pri:0, instance:com.qa.starwars.tests.GetFilmsAPI@3a93b025]" started-at="2024-05-03T09:44:24 IST" name="verifyFilmTitles" data-provider="filmsTitle" finished-at="2024-05-03T09:44:26 IST" duration-ms="1380" status="PASS">
+>>>>>>> 4b832d278f5b7c23cbdebbebd8fc7eaa304c8bf9
           <params>
             <param index="0">
               <value>
@@ -102,6 +121,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
+<<<<<<< HEAD
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -176,6 +196,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- verifyFilmsForPeopleID_01 -->
         <test-method signature="verifyFilmsForPeopleID_01(java.lang.String)[pri:0, instance:com.qa.starwars.tests.GetPeopleAPI@2af004b]" started-at="2024-04-29T18:12:16 IST" name="verifyFilmsForPeopleID_01" data-provider="filmFromPeopleID_01" finished-at="2024-04-29T18:12:17 IST" depends-on-methods="com.qa.starwars.tests.GetPeopleAPI.getPeopleWithSingleID_with_extract" duration-ms="356" status="FAIL">
+=======
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilmTitles -->
+        <test-method signature="verifyFilmTitles(java.lang.String)[pri:0, instance:com.qa.starwars.tests.GetFilmsAPI@3a93b025]" started-at="2024-05-03T09:44:26 IST" name="verifyFilmTitles" data-provider="filmsTitle" finished-at="2024-05-03T09:44:26 IST" duration-ms="182" status="PASS">
+>>>>>>> 4b832d278f5b7c23cbdebbebd8fc7eaa304c8bf9
           <params>
             <param index="0">
               <value>
@@ -183,6 +209,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
+<<<<<<< HEAD
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -257,6 +284,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- verifyFilmsForPeopleID_01 -->
         <test-method signature="verifyFilmsForPeopleID_01(java.lang.String)[pri:0, instance:com.qa.starwars.tests.GetPeopleAPI@2af004b]" started-at="2024-04-29T18:12:17 IST" name="verifyFilmsForPeopleID_01" data-provider="filmFromPeopleID_01" finished-at="2024-04-29T18:12:17 IST" depends-on-methods="com.qa.starwars.tests.GetPeopleAPI.getPeopleWithSingleID_with_extract" duration-ms="370" status="FAIL">
+=======
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilmTitles -->
+        <test-method signature="verifyFilmTitles(java.lang.String)[pri:0, instance:com.qa.starwars.tests.GetFilmsAPI@3a93b025]" started-at="2024-05-03T09:44:26 IST" name="verifyFilmTitles" data-provider="filmsTitle" finished-at="2024-05-03T09:44:26 IST" duration-ms="182" status="PASS">
+>>>>>>> 4b832d278f5b7c23cbdebbebd8fc7eaa304c8bf9
           <params>
             <param index="0">
               <value>
@@ -264,6 +297,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
+<<<<<<< HEAD
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -338,6 +372,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- verifyFilmsForPeopleID_01 -->
         <test-method signature="verifyFilmsForPeopleID_01(java.lang.String)[pri:0, instance:com.qa.starwars.tests.GetPeopleAPI@2af004b]" started-at="2024-04-29T18:12:17 IST" name="verifyFilmsForPeopleID_01" data-provider="filmFromPeopleID_01" finished-at="2024-04-29T18:12:17 IST" depends-on-methods="com.qa.starwars.tests.GetPeopleAPI.getPeopleWithSingleID_with_extract" duration-ms="358" status="FAIL">
+=======
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilmTitles -->
+        <test-method signature="verifyFilmTitles(java.lang.String)[pri:0, instance:com.qa.starwars.tests.GetFilmsAPI@3a93b025]" started-at="2024-05-03T09:44:26 IST" name="verifyFilmTitles" data-provider="filmsTitle" finished-at="2024-05-03T09:44:27 IST" duration-ms="1266" status="PASS">
+>>>>>>> 4b832d278f5b7c23cbdebbebd8fc7eaa304c8bf9
           <params>
             <param index="0">
               <value>
@@ -345,6 +385,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
+<<<<<<< HEAD
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -419,6 +460,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- verifyFilmsForPeopleID_01 -->
       </class> <!-- com.qa.starwars.tests.GetPeopleAPI -->
+=======
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFilmTitles -->
+      </class> <!-- com.qa.starwars.tests.GetFilmsAPI -->
+>>>>>>> 4b832d278f5b7c23cbdebbebd8fc7eaa304c8bf9
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
