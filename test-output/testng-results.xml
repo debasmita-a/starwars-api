@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="0" failed="5" skipped="0">
+<testng-results ignored="0" total="6" passed="1" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-29T17:07:48 IST" name="Default suite" finished-at="2024-04-29T17:07:59 IST" duration-ms="11143">
+  <suite started-at="2024-04-29T18:12:10 IST" name="Default suite" finished-at="2024-04-29T18:12:17 IST" duration-ms="7141">
     <groups>
     </groups>
-    <test started-at="2024-04-29T17:07:48 IST" name="Default test" finished-at="2024-04-29T17:07:59 IST" duration-ms="11143">
+    <test started-at="2024-04-29T18:12:10 IST" name="Default test" finished-at="2024-04-29T18:12:17 IST" duration-ms="7141">
       <class name="com.qa.starwars.tests.GetPeopleAPI">
-        <test-method signature="getPeopleWithSingleID_with_extract(java.lang.String)[pri:0, instance:com.qa.starwars.tests.GetPeopleAPI@17f62e33]" started-at="2024-04-29T17:07:48 IST" name="getPeopleWithSingleID_with_extract" data-provider="filmFromPeopleID_01" finished-at="2024-04-29T17:07:54 IST" duration-ms="5933" status="FAIL">
+        <test-method signature="getPeopleWithSingleID_with_extract()[pri:0, instance:com.qa.starwars.tests.GetPeopleAPI@2af004b]" started-at="2024-04-29T18:12:10 IST" name="getPeopleWithSingleID_with_extract" finished-at="2024-04-29T18:12:15 IST" duration-ms="4622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPeopleWithSingleID_with_extract -->
+        <test-method signature="verifyFilmsForPeopleID_01(java.lang.String)[pri:0, instance:com.qa.starwars.tests.GetPeopleAPI@2af004b]" started-at="2024-04-29T18:12:15 IST" name="verifyFilmsForPeopleID_01" data-provider="filmFromPeopleID_01" finished-at="2024-04-29T18:12:16 IST" depends-on-methods="com.qa.starwars.tests.GetPeopleAPI.getPeopleWithSingleID_with_extract" duration-ms="929" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -55,7 +59,7 @@ at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationI
 at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
-at com.qa.starwars.tests.GetPeopleAPI.getPeopleWithSingleID_with_extract(GetPeopleAPI.java:109)
+at com.qa.starwars.tests.GetPeopleAPI.verifyFilmsForPeopleID_01(GetPeopleAPI.java:111)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -89,8 +93,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getPeopleWithSingleID_with_extract -->
-        <test-method signature="getPeopleWithSingleID_with_extract(java.lang.String)[pri:0, instance:com.qa.starwars.tests.GetPeopleAPI@17f62e33]" started-at="2024-04-29T17:07:54 IST" name="getPeopleWithSingleID_with_extract" data-provider="filmFromPeopleID_01" finished-at="2024-04-29T17:07:56 IST" duration-ms="1332" status="FAIL">
+        </test-method> <!-- verifyFilmsForPeopleID_01 -->
+        <test-method signature="verifyFilmsForPeopleID_01(java.lang.String)[pri:0, instance:com.qa.starwars.tests.GetPeopleAPI@2af004b]" started-at="2024-04-29T18:12:16 IST" name="verifyFilmsForPeopleID_01" data-provider="filmFromPeopleID_01" finished-at="2024-04-29T18:12:16 IST" depends-on-methods="com.qa.starwars.tests.GetPeopleAPI.getPeopleWithSingleID_with_extract" duration-ms="328" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -136,7 +140,7 @@ at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationI
 at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
-at com.qa.starwars.tests.GetPeopleAPI.getPeopleWithSingleID_with_extract(GetPeopleAPI.java:109)
+at com.qa.starwars.tests.GetPeopleAPI.verifyFilmsForPeopleID_01(GetPeopleAPI.java:111)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -170,8 +174,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getPeopleWithSingleID_with_extract -->
-        <test-method signature="getPeopleWithSingleID_with_extract(java.lang.String)[pri:0, instance:com.qa.starwars.tests.GetPeopleAPI@17f62e33]" started-at="2024-04-29T17:07:56 IST" name="getPeopleWithSingleID_with_extract" data-provider="filmFromPeopleID_01" finished-at="2024-04-29T17:07:56 IST" duration-ms="774" status="FAIL">
+        </test-method> <!-- verifyFilmsForPeopleID_01 -->
+        <test-method signature="verifyFilmsForPeopleID_01(java.lang.String)[pri:0, instance:com.qa.starwars.tests.GetPeopleAPI@2af004b]" started-at="2024-04-29T18:12:16 IST" name="verifyFilmsForPeopleID_01" data-provider="filmFromPeopleID_01" finished-at="2024-04-29T18:12:17 IST" depends-on-methods="com.qa.starwars.tests.GetPeopleAPI.getPeopleWithSingleID_with_extract" duration-ms="356" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -217,7 +221,7 @@ at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationI
 at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
-at com.qa.starwars.tests.GetPeopleAPI.getPeopleWithSingleID_with_extract(GetPeopleAPI.java:109)
+at com.qa.starwars.tests.GetPeopleAPI.verifyFilmsForPeopleID_01(GetPeopleAPI.java:111)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -251,8 +255,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getPeopleWithSingleID_with_extract -->
-        <test-method signature="getPeopleWithSingleID_with_extract(java.lang.String)[pri:0, instance:com.qa.starwars.tests.GetPeopleAPI@17f62e33]" started-at="2024-04-29T17:07:56 IST" name="getPeopleWithSingleID_with_extract" data-provider="filmFromPeopleID_01" finished-at="2024-04-29T17:07:58 IST" duration-ms="1620" status="FAIL">
+        </test-method> <!-- verifyFilmsForPeopleID_01 -->
+        <test-method signature="verifyFilmsForPeopleID_01(java.lang.String)[pri:0, instance:com.qa.starwars.tests.GetPeopleAPI@2af004b]" started-at="2024-04-29T18:12:17 IST" name="verifyFilmsForPeopleID_01" data-provider="filmFromPeopleID_01" finished-at="2024-04-29T18:12:17 IST" depends-on-methods="com.qa.starwars.tests.GetPeopleAPI.getPeopleWithSingleID_with_extract" duration-ms="370" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -298,7 +302,7 @@ at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationI
 at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
-at com.qa.starwars.tests.GetPeopleAPI.getPeopleWithSingleID_with_extract(GetPeopleAPI.java:109)
+at com.qa.starwars.tests.GetPeopleAPI.verifyFilmsForPeopleID_01(GetPeopleAPI.java:111)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -332,8 +336,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getPeopleWithSingleID_with_extract -->
-        <test-method signature="getPeopleWithSingleID_with_extract(java.lang.String)[pri:0, instance:com.qa.starwars.tests.GetPeopleAPI@17f62e33]" started-at="2024-04-29T17:07:58 IST" name="getPeopleWithSingleID_with_extract" data-provider="filmFromPeopleID_01" finished-at="2024-04-29T17:07:59 IST" duration-ms="1353" status="FAIL">
+        </test-method> <!-- verifyFilmsForPeopleID_01 -->
+        <test-method signature="verifyFilmsForPeopleID_01(java.lang.String)[pri:0, instance:com.qa.starwars.tests.GetPeopleAPI@2af004b]" started-at="2024-04-29T18:12:17 IST" name="verifyFilmsForPeopleID_01" data-provider="filmFromPeopleID_01" finished-at="2024-04-29T18:12:17 IST" depends-on-methods="com.qa.starwars.tests.GetPeopleAPI.getPeopleWithSingleID_with_extract" duration-ms="358" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -379,7 +383,7 @@ at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationI
 at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
 at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
 at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
-at com.qa.starwars.tests.GetPeopleAPI.getPeopleWithSingleID_with_extract(GetPeopleAPI.java:109)
+at com.qa.starwars.tests.GetPeopleAPI.verifyFilmsForPeopleID_01(GetPeopleAPI.java:111)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -413,7 +417,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getPeopleWithSingleID_with_extract -->
+        </test-method> <!-- verifyFilmsForPeopleID_01 -->
       </class> <!-- com.qa.starwars.tests.GetPeopleAPI -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

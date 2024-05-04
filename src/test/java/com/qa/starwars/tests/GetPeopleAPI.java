@@ -87,8 +87,8 @@ public class GetPeopleAPI {
 		};
 	}
 	
-	@Test(dataProvider = "filmFromPeopleID_01")
-	public void getPeopleWithSingleID_with_extract(String filmTitle) {
+	@Test
+	public void getPeopleWithSingleID_with_extract() {
         restClient = new RestClient();
 		
 		Response response = restClient.get("/people/1", true)
@@ -99,15 +99,6 @@ public class GetPeopleAPI {
 		List<String> films = new ArrayList<String>();
 		films = js.getList("films");
 		
-		for(String f : films) {
-			String endPoint = "/" + StringUtil.getAPIEndPointsFromResponseBody(f);
-			//System.out.println("/" + endPoint);
-			
-			restClient.get(endPoint, true)
-			              .then()
-			                  .assertThat()
-			                      .body("title", equalTo(filmTitle));
-			restClient = new RestClient();
-		}
-	}
+	}	
+	
 }

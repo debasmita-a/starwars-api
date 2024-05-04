@@ -5,7 +5,8 @@
     <classes>
       <class name="com.qa.starwars.tests.GetPeopleAPI">
         <methods>
-          <include name="getPeopleWithSingleID_with_extract" invocation-numbers="0 1 2 3 4"/>
+          <include name="verifyFilmsForPeopleID_01" invocation-numbers="0 1 2 3 4"/>
+          <include name="getPeopleWithSingleID_with_extract"/>
         </methods>
       </class> <!-- com.qa.starwars.tests.GetPeopleAPI -->
     </classes>
