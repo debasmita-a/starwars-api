@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.starwars.tests.GetPeopleAPI">
+      <class name="com.qa.starwars.tests.GetFilmsAPI">
         <methods>
-          <include name="getPeopleWithSingleID_with_extract" invocation-numbers="0 1 2 3 4"/>
+          <include name="verifyFilmTitles" invocation-numbers="0 1 2 3 4"/>
         </methods>
-      </class> <!-- com.qa.starwars.tests.GetPeopleAPI -->
+      </class> <!-- com.qa.starwars.tests.GetFilmsAPI -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

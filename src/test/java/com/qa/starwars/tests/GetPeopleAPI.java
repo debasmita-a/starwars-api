@@ -75,39 +75,5 @@ public class GetPeopleAPI {
 		                              
 	}
 	
-	
-	@DataProvider
-	public Object[][] filmFromPeopleID_01(){
-		return new Object[][] {
-			{"A New Hope"},
-			{"The Empire Strikes Back"},
-			{"Return of the Jedi"},
-			{"The Force Awakens"},
-			{"Revenge of the Sith"}			
-		};
-	}
-	
-	@Test(dataProvider = "filmFromPeopleID_01")
-	public void getPeopleWithSingleID_with_extract(String filmTitle) {
-        restClient = new RestClient();
-		
-		Response response = restClient.get("/people/1", true)
-		                                  .then()
-		                                       .extract()
-		                                           .response();
-		JsonPath js = response.jsonPath();
-		List<String> films = new ArrayList<String>();
-		films = js.getList("films");
-		
-		for(String f : films) {
-			String endPoint = "/" + StringUtil.getAPIEndPointsFromResponseBody(f);
-			//System.out.println("/" + endPoint);
-			
-			restClient.get(endPoint, true)
-			              .then()
-			                  .assertThat()
-			                      .body("title", equalTo(filmTitle));
-			restClient = new RestClient();
-		}
-	}
+
 }
